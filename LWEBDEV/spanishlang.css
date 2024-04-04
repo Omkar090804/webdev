@@ -1,0 +1,25 @@
+.color{
+    color:red;
+}
+
+.color-titl{
+    color:blue;
+}
+
+.color-tit{
+    color:orange;
+}
+.color-ti{
+    color:green;
+}
+.color-t{
+    color:yellow;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+html{
+    background-color:cyan;
+}
