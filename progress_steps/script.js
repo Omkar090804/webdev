@@ -3,10 +3,10 @@ const prev = document.getElementById('prev')
 const next = document.getElementById('next')
 const circles = document.querySelectorAll('.circle')
 
-let currentActive = 1
+let currentActive = 1      
 
 next.addEventListener('click', () => {
-    currentActive++
+    currentActive++                                     //to move from circle 1 to 2 and so on as we click next
 
     if(currentActive > circles.length) {
         currentActive = circles.length
@@ -16,8 +16,8 @@ next.addEventListener('click', () => {
 })
 
 prev.addEventListener('click', () => {
-    currentActive--
-
+    currentActive--                        //to move backward 
+ 
     if(currentActive < 1) {
         currentActive = 1
     }
@@ -36,7 +36,7 @@ function update() {
 
     const actives = document.querySelectorAll('.active')
 
-    progress.style.width = (actives.length - 1) / (circles.length - 1) * 100 + '%'
+    progress.style.width = (actives.length - 1) / (circles.length - 1) * 100 + '%'       //formula to make the blue line circle 1 to circle 2 exactly then circle 2 to circle 3 exactly and so on
 
     if(currentActive === 1) {
         prev.disabled = true
