@@ -1,0 +1,102 @@
+/* Center container */
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Center align dice sections */
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 20px;
+}
+
+/* Overall background color */
+body {
+  background-color: #393E46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+/* Title styling */
+h1 {
+  margin: 20px 0;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px #232931;
+  font-size: 3rem;
+  color: #4ECCA3;
+}
+
+/* Winner announcement styling */
+.winner-announcement {
+  font-size: 1.5rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+/* Player name section */
+.name-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.name-inputs input {
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+/* Buttons for replay and quit */
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: 'Indie Flower', cursive;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4ECCA3;
+  color: #393E46;
+  transition: 0.3s ease;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1.5rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+}
+
+/* Image styling */
+img {
+  width: 80%;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
